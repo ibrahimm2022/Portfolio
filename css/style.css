@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
-:root {
-  --main-clr: #100028;
-  --sec-clr: #00bfe7;
-}
 * {
   color: #fff !important ;
   font-size: 18px;
@@ -47,7 +43,7 @@ a:focus {
   height: 30px;
   border-width: 2px 0 0 2px;
   border-style: solid;
-  border-color: var(--sec-clr);
+  border-color: #00bfe7;
   top: 0;
   left: 0;
   transition: all 0.7s;
@@ -60,7 +56,7 @@ a:focus {
   height: 30px;
   border-width: 0 2px 2px 0;
   border-style: solid;
-  border-color: var(--sec-clr);
+  border-color: #00bfe7;
   right: 0;
   bottom: 0;
   transition: all 0.7s;
@@ -76,9 +72,8 @@ a:focus {
 
 /* ------------ header ----------- */
 .header {
-  background: var(--main-clr) url(../img/hero/hero-1.png) right no-repeat;
-  background-size: contain;
-
+  background: url(../img/hero/hero-1.jpg) top no-repeat;
+  background-size: cover;
   height: 800px;
 }
 .header .nav-bar {
@@ -114,7 +109,7 @@ a:focus {
   content: "";
   width: 100%;
   height: 2px;
-  background: var(--sec-clr);
+  background: #00bfe7;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -165,7 +160,7 @@ a:focus {
 /* --------------- body ----------------- */
 
 .services {
-  background: var(--main-clr);
+  background: #100028;
   padding: 5rem 0;
   line-height: 1.2;
 }
@@ -190,7 +185,7 @@ a:focus {
   position: absolute;
   width: 70px;
   height: 4px;
-  background: var(--sec-clr);
+  background: #00bfe7;
   bottom: 0;
   left: 0;
 }
@@ -209,7 +204,7 @@ a:focus {
 }
 .services .boref::before {
   content: "";
-  border: 2px solid var(--sec-clr);
+  border: 2px solid #00bfe7;
   width: 70px;
   height: 70px;
   position: absolute;
@@ -225,7 +220,7 @@ a:focus {
 }
 /* ---------------------------*/
 .work {
-  background: var(--main-clr);
+  background: #100028;
   position: relative;
   overflow: hidden;
 }
@@ -364,7 +359,7 @@ a:focus {
 }
 /* ------------------------- counter ---------------------- */
 .counter {
-  background: var(--main-clr);
+  background: #100028;
   padding-top: 13rem;
   height: 900px;
   position: relative;
@@ -458,7 +453,7 @@ a:focus {
   width: 90px;
   height: 6px;
   border-radius: 13px;
-  background: var(--sec-clr);
+  background: #00bfe7;
   position: absolute;
   bottom: 65px;
 }
@@ -526,7 +521,7 @@ a:focus {
 }
 /* ------------------ slider ----------------------------- */
 .blog {
-  background: var(--main-clr);
+  background: #100028;
   padding: 5rem 0;
   position: relative;
 }
@@ -551,7 +546,7 @@ a:focus {
   content: "";
   width: 80px;
   height: 7px;
-  background: var(--sec-clr);
+  background: #00bfe7;
   position: absolute;
   bottom: 33px;
   left: 89px;
@@ -604,7 +599,7 @@ a:focus {
   font-size: 27px;
   border: 1px solid #222222;
   font-family: "play", sans-serif;
-  background: var(--main-clr);
+  background: #100028;
   z-index: 1;
   cursor: pointer;
 }
@@ -637,7 +632,7 @@ a:focus {
 }
 /* ------------------ start footer ------------------------ */
 .footer {
-  background: var(--main-clr);
+  background: #100028;
   padding: 3rem 0;
 }
 .footer .head {
@@ -721,7 +716,7 @@ a:focus {
   font-size: 15px;
 }
 .footer .foot span span {
-  color: var(--sec-clr) !important;
+  color: #00bfe7 !important;
 }
 /* ------------------ media query ------------------------- */
 @media all and (max-width: 1099px) {
